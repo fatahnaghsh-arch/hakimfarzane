@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#052e26">
+<title>دبیرستان غیردولتی پسرانه حکیم فرزانه</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f1faf5;--card:#fff;--tx:#10261e;--mu:#587268;--pr:#0b6b4d;--dk:#052e26;--g:#10b981;--g2:#059669;--t:#2dd4bf;--au:#fbbf24;--co:#fb7185;--bd:#d3eadf;--er:#e11d48;--sh:0 8px 28px #05966922}
+@media(prefers-color-scheme:dark){:root:not([data-l]){--bg:#04140e;--card:#0a271d;--tx:#e6fbf0;--mu:#8fb5a4;--pr:#34d399;--bd:#14402f;--sh:0 8px 28px #0007}}
+*{box-sizing:border-box}::selection{background:var(--g);color:#fff}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-thumb{background:var(--g2);border-radius:10px}
+body{margin:0;font-family:Vazirmatn,Tahoma,sans-serif;background:var(--bg) radial-gradient(#10b98120 1.2px,transparent 1.2px) 0 0/24px 24px;color:var(--tx);line-height:1.9}
+header{background:linear-gradient(90deg,var(--dk),#0b6b4d);color:#fff;position:sticky;top:0;z-index:5;box-shadow:0 4px 20px #0004;border-bottom:3px solid var(--au)}
+.nav{max-width:1120px;margin:auto;display:flex;align-items:center;gap:6px;padding:8px 16px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:20px;margin-left:auto;color:#fff;text-decoration:none}.logo::before{content:'🌿 '}.logo b{color:var(--au)}
+.nav a.l{color:#d1fae5;text-decoration:none;padding:6px 13px;border-radius:20px;font-size:14px;transition:.25s}.nav a.l:hover{background:#ffffff1f}
+.nav a.l.on{background:linear-gradient(135deg,var(--au),#f59e0b);color:var(--dk);font-weight:700}
+main{max-width:1120px;margin:auto;padding:26px 16px 60px}main>*{animation:up .5s both}@keyframes up{from{opacity:0;transform:translateY(16px)}}
+.hero{position:relative;overflow:hidden;color:#fff;border-radius:26px;padding:70px 26px;text-align:center;background:radial-gradient(circle at 12% 15%,#2dd4bf66,transparent 38%),radial-gradient(circle at 88% 85%,#fbbf2455,transparent 40%),linear-gradient(135deg,#052e26,#0b6b4d 55%,#10b981);background-size:140% 140%;animation:up .5s both,bg 12s ease-in-out infinite alternate;box-shadow:var(--sh)}
+@keyframes bg{to{background-position:100% 100%}}
+.hero::before,.hero::after{content:'';position:absolute;border:2px solid #ffffff22;border-radius:50%}.hero::before{width:320px;height:320px;top:-120px;left:-90px}.hero::after{width:220px;height:220px;bottom:-90px;right:-60px;border-color:#fbbf2444}.hero>*{position:relative}
+.hero h1{margin:0 0 12px;font-size:clamp(26px,5.5vw,46px);font-weight:800;text-shadow:0 4px 18px #0006}.hero p{margin:0 auto 26px;max-width:640px;opacity:.95;font-size:17px}
+.bd{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:24px}.bd span{background:#ffffff1f;border:1px solid #ffffff33;border-radius:20px;padding:4px 14px;font-size:13px;backdrop-filter:blur(6px)}
+.btn{display:inline-block;border:0;border-radius:14px;padding:10px 24px;font:inherit;font-weight:700;cursor:pointer;background:linear-gradient(135deg,var(--g),var(--g2));color:#fff;text-decoration:none;box-shadow:0 6px 16px #05966944;transition:.25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px #05966966}
+.btn.w{background:linear-gradient(135deg,#fde68a,var(--au));color:var(--dk)}.btn.o{background:#ffffff22;border:1px solid #fff8;color:#fff;box-shadow:none}
+.btn.g{background:transparent;border:1px solid var(--bd);color:var(--tx);box-shadow:none}.btn.d{background:linear-gradient(135deg,var(--co),var(--er))}.btn.s{padding:4px 12px;font-size:13px;border-radius:10px}
+h2{color:var(--pr);margin:34px 0 16px;position:relative;padding-right:16px;font-weight:800}h2::before{content:'';position:absolute;right:0;top:.3em;bottom:.3em;width:6px;border-radius:6px;background:linear-gradient(var(--g),var(--au))}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:22px;box-shadow:var(--sh)}
+.grid>.card{transition:.3s}.grid>.card:hover{transform:translateY(-6px);border-color:var(--g)}
+.member{text-align:center;border-top:5px solid var(--g)}.member:nth-child(2){border-top-color:var(--au)}.member:nth-child(3){border-top-color:var(--t)}.member:nth-child(4){border-top-color:var(--co)}
+.av{width:86px;height:86px;border-radius:50%;margin:0 auto 12px;display:grid;place-items:center;font-size:34px;font-weight:800;color:#fff;background:linear-gradient(135deg,var(--g2),var(--t));box-shadow:0 0 0 4px var(--card),0 0 0 7px #10b98155}
+.member:nth-child(2) .av{background:linear-gradient(135deg,#f59e0b,var(--au))}.member:nth-child(3) .av{background:linear-gradient(135deg,#0d9488,var(--t))}.member:nth-child(4) .av{background:linear-gradient(135deg,var(--er),var(--co))}
+.member h3{margin:4px 0;font-size:18px}.role{color:var(--g2);font-weight:700;font-size:14px}.member p{color:var(--mu);font-size:14px;margin:6px 0 0}
+.stat{text-align:center}.stat b{display:block;font-size:32px;background:linear-gradient(135deg,var(--g2),var(--au));-webkit-background-clip:text;background-clip:text;color:transparent}
+label{display:block;font-weight:700;margin:14px 0 6px;font-size:14px}
+input,select,textarea{width:100%;font:inherit;padding:10px 12px;border:1px solid var(--bd);border-radius:12px;background:var(--bg);color:var(--tx);transition:.2s}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--g);box-shadow:0 0 0 4px #10b98130}
+.rad{display:flex;gap:10px;flex-wrap:wrap}.rad label{margin:0;border:1px solid var(--bd);border-radius:12px;padding:8px 18px;cursor:pointer;font-weight:400}.rad label:has(input:checked){background:#10b98122;border-color:var(--g);font-weight:700}
+.rad input{width:auto;margin-left:6px}.hint{color:var(--mu);font-size:13px}
+.pay{background:linear-gradient(135deg,var(--dk),#0b6b4d);color:#fff;border-radius:18px;padding:18px;text-align:center;margin-top:14px;border:1px solid #fbbf2455}.pay .n{font-size:22px;letter-spacing:2px;direction:ltr;font-weight:700;color:#fde68a}
+.prev{max-width:110px;max-height:110px;border-radius:12px;margin-top:8px;display:block;border:2px solid var(--g)}
+.msg{padding:12px 16px;border-radius:14px;margin:14px 0;background:#d1fae5;color:#065f46;border:1px solid #6ee7b7}.msg.e{background:#ffe4e6;color:#9f1239;border-color:#fda4af}
+.tag{display:inline-block;padding:2px 12px;border-radius:20px;font-size:12px;font-weight:700;background:#d1fae5;color:#047857}.tag.t2{background:#fef3c7;color:#92400e}.tag.t3{background:#ffe4e6;color:#be123c}
+.news img{width:100%;height:170px;object-fit:cover;border-radius:14px;margin-bottom:10px}.news small{color:var(--mu)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.chips button{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:20px;padding:5px 16px;font:inherit;cursor:pointer;transition:.2s}.chips .on{background:linear-gradient(135deg,var(--g),var(--g2));color:#fff;border-color:transparent}
+.tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:9px 8px;border-bottom:1px solid var(--bd);text-align:right}th{color:var(--pr);background:#10b9811a}tr:hover td{background:#10b98112}
+.sc{overflow-x:auto}.imgs{display:flex;gap:10px;flex-wrap:wrap}.imgs img{width:140px;border-radius:12px;border:2px solid var(--g)}
+details[open]{border-color:var(--g)}
+footer{text-align:center;color:#a7f3d0;font-size:13px;padding:22px;background:linear-gradient(90deg,var(--dk),#0b6b4d);border-top:3px solid var(--au)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:end}.row>*{flex:1;min-width:120px}
+.nav a.l.st{border:1px solid var(--au);color:#fde68a}
+.sheet{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0 14px;margin:8px 0}
+.login{max-width:430px;margin:26px auto;text-align:center;position:relative;overflow:hidden}.login::before{content:'';position:absolute;inset:0 0 auto;height:6px;background:linear-gradient(90deg,var(--g),var(--au),var(--t),var(--co))}
+.login label{text-align:right}.lg{width:84px;height:84px;margin:8px auto 4px;border-radius:26px;display:grid;place-items:center;font-size:42px;background:linear-gradient(135deg,var(--g2),var(--t));box-shadow:0 12px 28px #05966955;transform:rotate(-6deg)}
+.prof{display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding:22px;border-radius:24px;color:#fff;background:linear-gradient(135deg,var(--dk),#0b6b4d 60%,var(--g));box-shadow:var(--sh)}
+.prof img{width:96px;height:96px;border-radius:50%;object-fit:cover;border:4px solid var(--au);background:#fff3}.pn{font-size:24px;font-weight:800}
+.chip{display:inline-block;background:#ffffff26;border-radius:20px;padding:2px 14px;margin:4px 0 0 6px;font-size:13px}
+.path{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.path div{flex:1;min-width:130px;text-align:center;padding:10px;border-radius:14px;border:1px dashed var(--bd);color:var(--mu)}.path .on{background:linear-gradient(135deg,var(--au),#f59e0b);color:var(--dk);border:0;font-weight:800;box-shadow:0 8px 20px #f59e0b55}
+.res{padding:16px;border-radius:18px;text-align:center;font-size:18px;font-weight:800;background:#fef3c7;color:#92400e}.res.ok{background:linear-gradient(135deg,#d1fae5,#a7f3d0);color:#065f46}.res.no{background:#ffe4e6;color:#9f1239}
+.ring{width:110px;height:110px;border-radius:50%;margin:0 auto 12px;display:grid;place-items:center;background:conic-gradient(var(--g) calc(var(--p)*1%),#8882 0)}.ring b{width:84px;height:84px;border-radius:50%;background:var(--card);display:grid;place-items:center;font-size:22px}
+.sco{display:inline-block;min-width:44px;text-align:center;border-radius:10px;padding:0 8px;font-weight:700;background:#d1fae5;color:#047857}.sco.lo{background:#ffe4e6;color:#be123c}.sco.hi{background:#fef3c7;color:#92400e}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="logo" href="#home">حکیم <b>فرزانه</b></a>
+<a class="l" href="#home">خانه</a><a class="l" href="#about">درباره ما</a><a class="l" href="#team">تیم ما</a><a class="l" href="#levels">پایه‌ها</a><a class="l" href="#news">اخبار</a><a class="l" href="#gallery">گالری</a><a class="l" href="#register">ثبت‌نام</a><a class="l st" href="#student">🎓 ورود دانش‌آموز</a><a class="l" href="#faq">سوالات متداول</a><a class="l" href="#contact">تماس / گزارش مشکل</a><a class="l" href="#admin">🔒 مدیریت</a>
+</div></header>
+<main id="app"></main>
+<footer>© دبیرستان غیردولتی پسرانه حکیم فرزانه</footer>
+
+<script>
+/* ===== تنظیمات ===== */
+const CFG={
+  // برای اینکه ثبت‌نام‌ها روی همه دستگاه‌ها به مدیر برسد، آدرس Firebase Realtime Database را اینجا بگذارید:
+  // مثال: 'https://NAME-default-rtdb.firebaseio.com'  (اگر خالی باشد، داده‌ها فقط در مرورگر همان دستگاه ذخیره می‌شود)
+  FIREBASE_URL:'',
+  // هش SHA-256 رمز مدیریت (رمز فعلی را در پیام چت دارید؛ از تب «تغییر رمز» در پنل مدیریت هش رمز جدید بسازید)
+  ADMIN_HASH:'f4ce018231932f504a407d09fa703a38adf2394f9b8e883905451ccb17b6b6cc',
+  PHONE:'شماره تلفن مدرسه را اینجا بنویسید',ADDR:'آدرس مدرسه را اینجا بنویسید',HOURS:'شنبه تا چهارشنبه ۷:۳۰ تا ۱۴:۰۰',
+  CARD:'6037 9974 4395 0739', FEE:'50,000'
+};
+const TEAM=[
+ {n:'آقای عظیمی',r:'مدیر مدرسه',d:'مدیریت و هدایت مجموعه'},
+ {n:'آقای مزروعی',r:'ناظم',d:'نظم، انضباط و امور آموزشی'},
+ {n:'آقای نقش',r:'مؤسس مدرسه',d:'حدود ۲۸ سال سابقه کار در آموزش'},
+ {n:'آقای فتاح',r:'مسئول فنی و کامپیوتر',d:'رفع مشکلات و پشتیبانی سیستم‌ها'}
+];
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fd=t=>new Date(t).toLocaleDateString('fa-IR');
+
+/* ===== ذخیره‌سازی (Firebase REST یا localStorage) ===== */
+const F=(u,o={})=>{if(CFG.SRV&&o.method&&o.method!='GET'){u+='&m='+o.method;o={...o,method:'POST'}}return fetch(u,{...o,headers:{'X-T':sessionStorage.hf_tk||''}})};
+const db={
+ async list(c){let m;if(CFG.FIREBASE_URL){m=await (await F(`${CFG.FIREBASE_URL}/${c}.json`)).json()||{}}else m=JSON.parse(localStorage['hf_'+c]||'{}');return Object.entries(m).map(([id,v])=>({...v,id}))},
+ async get(c,id){if(CFG.FIREBASE_URL)return await (await F(`${CFG.FIREBASE_URL}/${c}/${id}.json`)).json();return JSON.parse(localStorage['hf_'+c]||'{}')[id]||null},
+ async prefix(c,p){if(CFG.FIREBASE_URL){const m=await (await F(`${CFG.FIREBASE_URL}/${c}.json?orderBy=%22%24key%22&startAt=${encodeURIComponent('"'+p+'"')}&endAt=${encodeURIComponent('"'+p+'\uf8ff"')}`)).json()||{};return Object.entries(m).map(([id,v])=>({...v,id}))}return (await this.list(c)).filter(x=>x.id.startsWith(p))},
+ async patch(c,id,v){if(CFG.FIREBASE_URL){await F(`${CFG.FIREBASE_URL}/${c}/${id}.json`,{method:'PATCH',body:JSON.stringify(v)})}else{const m=JSON.parse(localStorage['hf_'+c]||'{}');m[id]={...m[id],...v};localStorage['hf_'+c]=JSON.stringify(m)}},
+ async put(c,id,v){if(CFG.FIREBASE_URL){const r=await F(`${CFG.FIREBASE_URL}/${c}/${id}.json`,{method:'PUT',body:JSON.stringify(v)});if(!r.ok)throw 1}else{const m=JSON.parse(localStorage['hf_'+c]||'{}');m[id]=v;localStorage['hf_'+c]=JSON.stringify(m)}},
+ async add(c,v){const id='k'+Date.now().toString(36)+Math.random().toString(36).slice(2,6);await this.put(c,id,v);return id},
+ async del(c,id){if(CFG.FIREBASE_URL){await F(`${CFG.FIREBASE_URL}/${c}/${id}.json`,{method:'DELETE'})}else{const m=JSON.parse(localStorage['hf_'+c]||'{}');delete m[id];localStorage['hf_'+c]=JSON.stringify(m)}}
+};
+async function sha(s){try{const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}catch(e){return sha256(s)}}
+function sha256(s){s=unescape(encodeURIComponent(s));const K=[],H=[];for(let n=2,c=0;c<64;n++){let p=1;for(let d=2;d*d<=n;d++)if(n%d==0)p=0;if(p){if(c<8)H[c]=Math.pow(n,.5)%1*4294967296|0;K[c++]=Math.pow(n,1/3)%1*4294967296|0}}
+ const b=[],L=s.length*8,R=(x,n)=>x>>>n|x<<32-n;for(let i=0;i<s.length;i++)b[i>>2]|=s.charCodeAt(i)<<(24-i%4*8);b[L>>5]|=128<<(24-L%32);b[(L+64>>9<<4)+15]=L;
+ for(let j=0;j<b.length;j+=16){const w=[],h=H.slice();for(let i=0;i<64;i++){if(i<16)w[i]=b[j+i]|0;else{const a=w[i-15],c=w[i-2];w[i]=w[i-16]+(R(a,7)^R(a,18)^a>>>3)+w[i-7]+(R(c,17)^R(c,19)^c>>>10)|0}
+ const e=h[4],a=h[0],t1=h[7]+(R(e,6)^R(e,11)^R(e,25))+(e&h[5]^~e&h[6])+K[i]+w[i]|0,t2=(R(a,2)^R(a,13)^R(a,22))+(a&h[1]^a&h[2]^h[1]&h[2])|0;h.pop();h.unshift(t1+t2|0);h[4]=h[4]+t1|0}
+ for(let i=0;i<8;i++)H[i]=H[i]+h[i]|0}return H.map(x=>(x>>>0).toString(16).padStart(8,'0')).join('')}
+const fa=s=>s.replace(/[۰-۹]/g,d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d)).replace(/[٠-٩]/g,d=>'٠١٢٣٤٥٦٧٨٩'.indexOf(d));
+function okNC(c){if(!/^\d{10}$/.test(c)||/^(\d)\1{9}$/.test(c))return false;let t=0;for(let i=0;i<9;i++)t+=+c[i]*(10-i);const r=t%11;return r<2?+c[9]==r:+c[9]==11-r}
+
+/* فشرده‌سازی عکس تا حدود ۵۰ کیلوبایت */
+function img(file){return new Promise((ok,no)=>{const r=new FileReader();r.onerror=no;r.onload=()=>{const i=new Image();i.onerror=no;i.onload=()=>{let w=Math.min(700,i.width),q=.7,u;do{const c=document.createElement('canvas');c.width=w;c.height=Math.round(i.height*w/i.width);c.getContext('2d').drawImage(i,0,0,c.width,c.height);u=c.toDataURL('image/jpeg',q);q-=.1;w*=.85}while(u.length*.75>50000&&q>.15);ok(u)};i.src=r.result};r.readAsDataURL(file)})}
+const IMG={};
+function pick(el,key){const f=el.files[0];if(!f)return;img(f).then(u=>{IMG[key]=u;$('#p_'+key).innerHTML=`<img class="prev" src="${u}">`}).catch(()=>alert('فایل تصویر معتبر نیست'))}
+
+/* ===== صفحات ===== */
+const P={};
+P.home=()=>`<div class="hero"><h1>دبیرستان غیردولتی پسرانه حکیم فرزانه</h1><p>آموزش با کیفیت، نظم و انضباط و تیمی باتجربه در کنار دانش‌آموزان. ثبت‌نام سال تحصیلی جدید را به‌صورت آنلاین انجام دهید.</p><a class="btn w" href="#register">ثبت‌نام دانش‌آموز جدید</a> <a class="btn o" href="#about">آشنایی با مدرسه</a><div class="bd"><span>✅ ثبت‌نام آنلاین</span><span>📢 اطلاع‌رسانی سریع</span><span>🎓 تیم باتجربه</span><span>🌿 محیط آرام و پویا</span></div></div>
+<h2>چرا حکیم فرزانه؟</h2><div class="grid"><div class="card stat"><b>۲۸+</b>سال سابقه کار مؤسس</div><div class="card stat"><b>۷ تا ۹</b>پایه‌های هفتم، هشتم و نهم</div><div class="card stat"><b>آنلاین</b>ثبت‌نام و اطلاع‌رسانی</div></div>
+<h2>آخرین اخبار</h2><div class="grid" id="hn">در حال بارگذاری…</div>`;
+P.team=()=>`<h2>تیم ما</h2><div class="grid">${TEAM.map(t=>`<div class="card member"><div class="av">${t.n.replace('آقای ','')[0]}</div><h3>${t.n}</h3><div class="role">${t.r}</div><p>${t.d}</p></div>`).join('')}</div>`;
+
+P.about=()=>`<h2>درباره مدرسه</h2><div class="card"><p>دبیرستان غیردولتی پسرانه «حکیم فرزانه» با هدف رشد علمی و اخلاقی دانش‌آموزان تأسیس شد. مؤسس مدرسه، آقای نقش، حدود ۲۸ سال سابقه کار در حوزه آموزش دارد و این تجربه، پایه‌ی روش تدریس و نظم مجموعه است.</p></div><div class="grid" style="margin-top:16px">${[['🎯','ماموریت','رشد علمی، اخلاقی و مهارتی دانش‌آموزان'],['👁️','چشم‌انداز','مدرسه‌ای الگو با تیم آموزشی متعهد'],['🤝','ارتباط با اولیا','اطلاع‌رسانی سریع از طریق بخش اخبار'],['💻','پشتیبانی فنی','رفع مشکلات سیستم‌ها توسط آقای فتاح']].map(x=>`<div class="card member"><div style="font-size:36px">${x[0]}</div><h3>${x[1]}</h3><p>${x[2]}</p></div>`).join('')}</div>`;
+P.levels=()=>`<h2>پایه‌های تحصیلی</h2><div class="grid">${['هفتم','هشتم','نهم'].map(g=>`<div class="card member"><div class="av">${g[0]}</div><h3>پایه ${g}</h3><p>برنامه‌ی درسی کامل، آزمون‌های دوره‌ای و پیگیری نمرات توسط مدیریت</p><a class="btn s" href="#register" style="margin-top:10px">ثبت‌نام</a></div>`).join('')}</div>`;
+P.gallery=()=>`<h2>گالری تصاویر</h2><div class="grid" id="gl">در حال بارگذاری…</div>`;
+P.faq=()=>`<h2>سوالات متداول</h2>${[['ثبت‌نام چگونه است؟','از منوی «ثبت‌نام» فرم را پر کنید، مدارک و رسید را بارگذاری نمایید.'],['چه مدارکی لازم است؟','عکس پرسنلی، شناسنامه، کارنامه نوبت اول پایه ششم و رسید پرداخت.'],['هزینه ثبت‌نام چقدر است؟',CFG.FEE+' تومان (کارت‌به‌کارت).'],['از کجا از نتیجه باخبر شوم؟','با کد پیگیری، و از طریق بخش اخبار و اطلاعیه‌ها.'],['مشکل فنی سایت را به چه کسی بگویم؟','به آقای فتاح، مسئول فنی مدرسه.']].map(q=>`<details class="card" style="margin-bottom:10px"><summary style="cursor:pointer;font-weight:700">${q[0]}</summary><p>${q[1]}</p></details>`).join('')}`;
+P.contact=()=>`<h2>تماس با ما</h2><div class="grid"><div class="card">📞 <b>تلفن</b><p>${CFG.PHONE}</p></div><div class="card">📍 <b>آدرس</b><p>${CFG.ADDR}</p></div><div class="card">🕒 <b>ساعت کاری</b><p>${CFG.HOURS}</p></div></div><h2>گزارش مشکل به مدیریت</h2><div class="card"><p class="hint">مشکلی در سایت، ثبت‌نام یا نمرات دیدید؟ اینجا بنویسید تا مستقیم به مدیریت برسد.</p><div class="row"><div><label>نام (اختیاری)</label><input id="in"></div><div><label>موضوع</label><select id="ik"><option>مشکل سایت</option><option>ثبت‌نام</option><option>نمرات</option><option>سایر</option></select></div></div><label>شرح مشکل *</label><textarea id="ix" rows="4"></textarea><div id="im"></div><button class="btn" style="margin-top:12px" onclick="sendIssue()">ارسال به مدیریت</button></div>`;
+P.student=()=>sessionStorage.hf_st?'<div id="sp">در حال بارگذاری…</div>':`<div class="card login"><div class="lg">🎓</div><h3 style="margin:8px 0 2px">ورود دانش‌آموز</h3><p class="hint">با کد ملی و رمز عبوری که هنگام ثبت‌نام انتخاب کردید وارد شوید.</p>${CFG.FIREBASE_URL?'':'<div class="msg e">نسخه آزمایشی: بدون پایگاه داده مشترک، ورود فقط روی همان دستگاه ثبت‌نام کار می‌کند.</div>'}<label>کد ملی</label><input id="sn" inputmode="numeric" maxlength="10" dir="ltr"><label>رمز عبور</label><input id="sw" type="password" onkeydown="if(event.key=='Enter')stLogin()"><div id="sm"></div><button class="btn" style="width:100%;margin-top:14px" onclick="stLogin()">ورود به پنل ✨</button></div>`;
+P.register=()=>`<h2>ثبت‌نام دانش‌آموز جدید</h2><div class="card"><p class="hint">قبل از شروع این مدارک را آماده کنید: تصویر پرسنلی، تصویر شناسنامه، تصویر کارنامه نوبت اول پایه ششم (هر کدام حداکثر ۵۰ کیلوبایت — سایت خودکار کوچک می‌کند) و رسید واریز.</p>
+<form id="rf"><label>نام و نام خانوادگی *</label><input id="fn" required><label>کد ملی *</label><input id="ncode" inputmode="numeric" maxlength="10" dir="ltr" required><label>رمز عبور (برای ورود به پنل دانش‌آموز) *</label><input id="pw1" type="password" minlength="6" required><div class="hint">حداقل ۶ کاراکتر؛ آن را فراموش نکنید.</div>
+<label>در سال آینده در چه مقطعی تحصیل خواهید کرد؟ *</label><div class="rad"><label><input type="radio" name="gr" value="هفتم" required>هفتم</label><label><input type="radio" name="gr" value="هشتم">هشتم</label><label><input type="radio" name="gr" value="نهم">نهم</label></div>
+<label>نام مدرسه (دبستان) سال قبل *</label><input id="ps" required>
+<label>تصویر پرسنلی *</label><input type="file" accept="image/*" onchange="pick(this,'photo')"><div id="p_photo"></div>
+<label>تصویر شناسنامه *</label><input type="file" accept="image/*" onchange="pick(this,'sh')"><div id="p_sh"></div>
+<label>تصویر کارنامه نوبت اول پایه ششم *</label><input type="file" accept="image/*" onchange="pick(this,'rc')"><div id="p_rc"></div>
+<div class="pay">هزینه را به شماره کارت زیر واریز کنید و رسید را بارگذاری نمایید<div class="n">${CFG.CARD}</div><div>مبلغ: ${CFG.FEE} تومان</div><button type="button" class="btn w s" onclick="navigator.clipboard.writeText('${CFG.CARD.replace(/ /g,'')}');this.textContent='کپی شد ✓'">کپی شماره کارت</button></div>
+<label>تصویر رسید پرداخت *</label><input type="file" accept="image/*" onchange="pick(this,'pay')"><div id="p_pay"></div>
+<div id="rm"></div><button class="btn" style="margin-top:14px">ثبت نهایی</button></form></div>`;
+P.news=()=>`<h2>اخبار و اطلاعیه‌ها</h2><div class="chips" id="ch"></div><div class="grid" id="nl">در حال بارگذاری…</div>`;
+P.admin=()=>sessionStorage.hf_ad?'<div id="ad"></div>':`<h2>ورود مدیریت</h2><div class="card" style="max-width:380px;margin:auto"><label>رمز عبور</label><input type="password" id="pw" onkeydown="if(event.key=='Enter')login()"><div id="lm"></div><button class="btn" style="margin-top:14px" onclick="login()">ورود</button></div>`;
+
+/* ===== منطق ===== */
+const CAT={news:['خبر',''],info:['اطلاعیه','t2'],issue:['مشکلات و اطلاعیه فنی','t3']};
+const newsCard=n=>`<div class="card news">${n.img?`<img src="${n.img}" alt="">`:''}<span class="tag ${CAT[n.cat]?.[1]||''}">${CAT[n.cat]?.[0]||'خبر'}</span><h3 style="margin:8px 0">${esc(n.title)}</h3><p style="margin:0">${esc(n.text).replace(/\n/g,'<br>')}</p><small>${fd(n.at)}</small></div>`;
+const byDate=a=>a.sort((x,y)=>y.at-x.at);
+async function loadNews(el,limit,cat){try{let l=byDate(await db.list('news'));if(cat)l=l.filter(n=>n.cat==cat);if(limit)l=l.slice(0,limit);el.innerHTML=l.map(newsCard).join('')||'<div class="hint">هنوز خبری ثبت نشده است.</div>'}catch(e){el.innerHTML='<div class="msg e">خطا در دریافت اخبار</div>'}}
+
+document.addEventListener('submit',async e=>{
+ if(e.target.id!='rf')return;e.preventDefault();const m=$('#rm');
+ if(!IMG.photo||!IMG.sh||!IMG.rc||!IMG.pay){m.innerHTML='<div class="msg e">لطفاً هر چهار تصویر را بارگذاری کنید.</div>';return}
+ const code=String(Math.floor(100000+Math.random()*900000));
+ const nc=fa($('#ncode').value.trim()),pw=$('#pw1').value;
+ if(!okNC(nc)){m.innerHTML='<div class="msg e">کد ملی معتبر نیست.</div>';return}
+ if(pw.length<6){m.innerHTML='<div class="msg e">رمز عبور حداقل ۶ کاراکتر باشد.</div>';return}
+ try{if(await db.get('regs',nc)){m.innerHTML='<div class="msg e">با این کد ملی قبلاً ثبت‌نام شده است؛ از «ورود دانش‌آموز» وارد شوید.</div>';return}
+ await db.put('regs',nc,{nc,ph:await sha(nc+':'+pw),name:$('#fn').value.trim(),grade:document.querySelector('[name=gr]:checked').value,prev:$('#ps').value.trim(),photo:IMG.photo,sh:IMG.sh,rc:IMG.rc,pay:IMG.pay,code,st:'جدید',at:Date.now()});
+ for(const k in IMG)delete IMG[k];$('#rf').outerHTML=`<div class="msg">ثبت‌نام با موفقیت انجام شد ✅<br>برای دیدن وضعیت و نمرات از منوی «ورود دانش‌آموز» با کد ملی و رمز عبورتان وارد شوید.<br>کد پیگیری: <b>${code}</b></div>`}
+ catch(er){m.innerHTML='<div class="msg e">ثبت انجام نشد. اگر قبلاً با این کد ملی ثبت‌نام کرده‌اید از «ورود دانش‌آموز» استفاده کنید، وگرنه دوباره تلاش کنید.</div>'}
+});
+async function login(){let f=+localStorage.hf_f||0,u=+localStorage.hf_u||0;if(Date.now()<u)return $('#lm').innerHTML='<div class="msg e">به دلیل تلاش‌های ناموفق، ۵ دقیقه صبر کنید</div>';
+ if(await chk('a',await sha($('#pw').value))){localStorage.hf_f=0;sessionStorage.hf_ad=Date.now();route()}else{f++;localStorage.hf_f=f;if(f>=5){localStorage.hf_u=Date.now()+3e5;localStorage.hf_f=0}$('#lm').innerHTML='<div class="msg e">رمز اشتباه است</div>'}}
+setInterval(()=>{if(sessionStorage.hf_ad&&Date.now()-sessionStorage.hf_ad>18e5)logout()},6e4);
+function logout(){delete sessionStorage.hf_ad;delete sessionStorage.hf_tk;route()}
+
+let TAB='regs',SEL={sid:'',term:'نوبت اول'};const TERMS=['نوبت اول','نوبت دوم'],SUBJ=['ریاضی','علوم','فارسی','نگارش','عربی','زبان انگلیسی','مطالعات اجتماعی','قرآن','پیام‌های آسمان','فرهنگ و هنر','ورزش','تفکر و سبک زندگی','انضباط'];
+async function admin(){
+ const el=$('#ad');if(!el)return;
+ el.innerHTML=`<h2>پنل مدیریت</h2><div class="tabs">${[['regs','دانش‌آموزان'],['grades','نمرات'],['disc','پرونده تربیتی'],['issues','مشکلات'],['news','اخبار'],['gallery','گالری'],['pw','تغییر رمز']].map(t=>`<button class="btn ${TAB==t[0]?'':'g'}" onclick="TAB='${t[0]}';admin()">${t[1]}</button>`).join('')}<button class="btn g" style="margin-right:auto" onclick="logout()">خروج</button></div><div id="tb">در حال بارگذاری…</div>`;
+ const tb=$('#tb');
+ if(!CFG.FIREBASE_URL)tb.insertAdjacentHTML('beforebegin','<div class="msg e">توجه: Firebase تنظیم نشده؛ داده‌ها فقط در همین مرورگر ذخیره می‌شوند و ثبت‌نام‌های دیگر دستگاه‌ها دیده نمی‌شود.</div>');
+ try{
+ if(TAB=='regs'){const l=byDate(await db.list('regs'));window.R=l;const M=SEL.msg||'';SEL.msg='';
+  tb.innerHTML=M+ADDF+`<div class="card sc"><div style="display:flex;justify-content:space-between;margin-bottom:8px"><b>${l.length} دانش‌آموز</b><button class="btn s" onclick="csv()">خروجی CSV</button></div><table><tr><th>نام</th><th>پایه</th><th>دبستان</th><th>تاریخ</th><th>کد ملی</th><th>وضعیت</th><th>نتیجه سال</th><th></th></tr>${l.map((r,i)=>`<tr><td>${esc(r.name)}</td><td>${esc(r.grade)}</td><td>${esc(r.prev)}</td><td>${fd(r.at)}</td><td>${esc(r.nc||'—')}</td><td><select onchange="setSt('${r.id}',${i},this.value)">${['جدید','پذیرفته‌شده','رد‌شده'].map(s=>`<option ${s==r.st?'selected':''}>${s}</option>`).join('')}</select></td><td><select onchange="setSt('${r.id}',${i},this.value,'res')">${['خودکار','قبول','مردود'].map(s=>`<option ${s==(r.res||'خودکار')?'selected':''}>${s}</option>`).join('')}</select></td><td><button class="btn s g" onclick="show(${i})">مدارک</button> <button class="btn s g" onclick="resetPw(${i})">🔑 رمز</button> <button class="btn s d" onclick="delReg('${r.id}')">حذف</button></td></tr>`).join('')}</table><div id="dt"></div></div>`}
+ if(TAB=='grades'){const rs=byDate(await db.list('regs')),gs=await db.list('grades');window.G=gs;const M=SEL.msg||'';SEL.msg='';
+  const s=rs.find(r=>r.id==SEL.sid)?SEL.sid:(rs[0]||{}).id;SEL.sid=s;
+  tb.innerHTML=M+XLC+(rs.length?`<div class="card"><div class="row"><div><label>دانش‌آموز</label><select onchange="SEL.sid=this.value;admin()">${rs.map(r=>`<option value="${r.id}" ${r.id==s?'selected':''}>${esc(r.name)} — ${esc(r.grade)}</option>`).join('')}</select></div><div><label>نوبت</label><select onchange="SEL.term=this.value;admin()">${TERMS.map(t=>`<option ${t==SEL.term?'selected':''}>${t}</option>`).join('')}</select></div></div><div class="sheet">${SUBJ.map((d,i)=>{const g=gs.find(x=>x.id==`${s}_${TERMS.indexOf(SEL.term)}_${i}`);return`<div><label>${d}</label><input class="si" type="number" min="0" max="20" step="0.25" value="${g?g.score:''}"></div>`}).join('')}</div><button class="btn" onclick="saveSheet()">💾 ذخیره نمرات ${SEL.term}</button></div><div class="card sc" style="margin-top:14px"><h3 style="margin-top:0">نمرات ثبت‌شده</h3>${stuTable(gs.filter(g=>g.sid==s))}</div>`:'<div class="hint">هنوز دانش‌آموزی ثبت‌نام نکرده است.</div>')}
+ if(TAB=='disc'){const rs=byDate(await db.list('regs')),s=rs.find(r=>r.id==SEL.sid)?SEL.sid:(rs[0]||{}).id;SEL.sid=s;const l=s?(await db.prefix('disc',s+'_')).sort((a,b)=>b.d.localeCompare(a.d)):[];
+  tb.innerHTML=rs.length?`<div class="card"><p class="hint">ثبت غیبت، تأخیر و اخراج از کلاس (ویژه‌ی معاون آموزشی). دانش‌آموز بعد از ورود، پرونده‌ی خود را می‌بیند.</p><label>دانش‌آموز</label><select onchange="SEL.sid=this.value;admin()">${rs.map(r=>`<option value="${r.id}" ${r.id==s?'selected':''}>${esc(r.name)} — ${esc(r.grade)}</option>`).join('')}</select><div class="row"><div><label>نوع</label><select id="dk">${DK.map(k=>`<option>${k}</option>`).join('')}</select></div><div><label>تاریخ</label><input id="dd" type="date" value="${new Date().toISOString().slice(0,10)}"></div><div><label>توضیح (درس/ساعت)</label><input id="dx"></div><button class="btn" onclick="addD()">ثبت</button></div></div><div class="card sc" style="margin-top:14px">${discHtml(l,1)}</div>`:'<div class="hint">هنوز دانش‌آموزی وجود ندارد.</div>'}
+ if(TAB=='issues'){const l=byDate(await db.list('issues'));window.IS=l;tb.innerHTML=`<div class="grid">${l.map((x,i)=>`<div class="card"><span class="tag ${x.ok?'':'t3'}">${x.ok?'رسیدگی شد':'جدید'}</span> <span class="tag t2">${esc(x.k)}</span><p>${esc(x.x)}</p><small class="hint">${esc(x.n||'ناشناس')} — ${fd(x.at)}</small><br><button class="btn s g" onclick="doneI('${x.id}',${i})">${x.ok?'بازگردانی':'✔ رسیدگی شد'}</button> <button class="btn s d" onclick="if(confirm('حذف شود؟'))db.del('issues','${x.id}').then(admin)">حذف</button></div>`).join('')||'<div class="hint">مشکلی گزارش نشده است.</div>'}</div>`}
+ if(TAB=='news'){tb.innerHTML=`<div class="card"><label>عنوان</label><input id="nt"><label>دسته</label><select id="nc"><option value="news">خبر</option><option value="info">اطلاعیه</option><option value="issue">مشکلات و اطلاعیه فنی</option></select><label>متن</label><textarea id="nx" rows="4"></textarea><label>عکس (اختیاری)</label><input type="file" accept="image/*" onchange="pick(this,'news')"><div id="p_news"></div><button class="btn" style="margin-top:12px" onclick="addN()">انتشار</button></div><div class="grid news-l" style="margin-top:14px" id="nl2"></div>`;
+  const l=byDate(await db.list('news'));$('#nl2').innerHTML=l.map(n=>newsCard(n)+'').map((h,i)=>h.replace(/<\/div>$/,`<button class="btn s g" onclick="editN('${l[i].id}')">ویرایش</button> <button class="btn s d" onclick="if(confirm('حذف شود؟'))db.del('news','${l[i].id}').then(admin)">حذف</button></div>`)).join('');window.N=l}
+ if(TAB=='gallery'){tb.innerHTML=`<div class="card"><label>عکس</label><input type="file" accept="image/*" onchange="pick(this,'gal')"><div id="p_gal"></div><label>توضیح</label><input id="gc"><button class="btn" style="margin-top:12px" onclick="addGal()">افزودن به گالری</button></div><div class="grid" style="margin-top:14px">${byDate(await db.list('gallery')).map(g=>`<div class="card news"><img src="${g.img}"><p>${esc(g.cap)}</p><button class="btn s d" onclick="if(confirm('حذف شود؟'))db.del('gallery','${g.id}').then(admin)">حذف</button></div>`).join('')}</div>`}
+ if(TAB=='pw')tb.innerHTML=`<div class="card"><p>رمز جدید را بنویسید (حداقل ۱۲ کاراکتر)، هش تولیدشده را در فایل جایگزین <code>ADMIN_HASH</code> کنید و دوباره روی GitHub بگذارید.</p><input id="np" type="text" dir="ltr"><button class="btn" style="margin-top:10px" onclick="setPw()">ساخت هش</button><label>هش</label><input id="ph" dir="ltr" readonly></div>`
+ }catch(e){tb.innerHTML='<div class="msg e">خطا در ارتباط با پایگاه داده</div>'}
+}
+function avg(gs,rs){const m={};gs.forEach(g=>{(m[g.sid]=m[g.sid]||[]).push(+g.score)});const k=Object.keys(m);if(!k.length)return'';return`<h3>میانگین‌ها</h3>`+k.map(id=>{const r=rs.find(x=>x.id==id);return`<div>${esc(r?r.name:'—')}: <b>${(m[id].reduce((a,b)=>a+b,0)/m[id].length).toFixed(2)}</b></div>`}).join('')}
+async function editG(id,old){const n=prompt('نمره‌ی جدید (۰ تا ۲۰):',old);if(n===null||n===''||isNaN(n)||n<0||n>20)return;const g={...G.find(x=>x.id==id),score:n};delete g.id;await db.put('grades',id,g);admin()}
+async function editN(id){const n=N.find(x=>x.id==id),t=prompt('عنوان:',n.title);if(t===null)return;const x=prompt('متن:',n.text);if(x===null)return;const v={...n,title:t,text:x};delete v.id;await db.put('news',id,v);admin()}
+async function addGal(){if(!IMG.gal)return alert('عکس را انتخاب کنید');await db.add('gallery',{img:IMG.gal,cap:$('#gc').value.trim(),at:Date.now()});delete IMG.gal;admin()}
+async function setPw(){const a=$('#np').value;if(a.length<12||!/[A-Z]/.test(a)||!/[a-z]/.test(a)||!/\d/.test(a)||!/\W/.test(a))return alert('حداقل ۱۲ کاراکتر شامل حروف بزرگ و کوچک، عدد و نماد');$('#ph').value=await sha(a)}
+const DK=['غیبت','تأخیر (دیر آمدن)','اخراج از کلاس'],gp=()=>[...crypto.getRandomValues(new Uint8Array(7))].map(x=>'abcdefghjkmnpqrstuvwxyz23456789'[x%31]).join('');
+let CRED=[];
+const ADDF=`<details class="card" style="margin-bottom:14px"><summary style="cursor:pointer;font-weight:700">➕ افزودن دانش‌آموز (رمز خودکار)</summary><div class="row"><div><label>نام و نام خانوادگی</label><input id="an"></div><div><label>کد ملی (نام کاربری)</label><input id="ac" inputmode="numeric" maxlength="10" dir="ltr"></div><div><label>پایه</label><select id="ag"><option>هفتم</option><option>هشتم</option><option>نهم</option></select></div><div><label>رمز (خالی = خودکار)</label><input id="ap" dir="ltr"></div><button class="btn" onclick="addStu()">افزودن</button></div><div id="am"></div></details>`;
+const XLC=`<div class="card" style="margin-bottom:14px"><b>📥 ورود گروهی نمرات از اکسل</b><p class="hint">ستون‌ها: «نام»، «کد ملی» و نام هر درس (ریاضی، علوم، …). نمره‌ها در نوبت انتخابی ثبت می‌شوند؛ دانش‌آموز جدید خودکار با رمز تصادفی ساخته می‌شود. فایل xlsx یا csv.</p><div class="row"><div><label>نوبت</label><select id="it">${TERMS.map(t=>`<option>${t}</option>`).join('')}</select></div><div><label>فایل اکسل</label><input type="file" accept=".xlsx,.xls,.csv" onchange="xl(this)"></div><button class="btn s g" onclick="dl('template.csv',[['نام و نام خانوادگی','کد ملی',...SUBJ],['علی رضایی','0499370899',...SUBJ.map(()=>'18')]])">نمونه فایل</button></div></div>`;
+function dl(n,rows){const b=new Blob(['\ufeff'+rows.map(r=>r.map(c=>`"${(/^0\d{9}$/.test(c)?'\t':'')+String(c).replace(/"/g,'""')}"`).join(',')).join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=n;a.click()}
+const credMsg=t=>`<div class="msg">${t} ${CRED.length?'<button class="btn s w" onclick="dl(\'credentials.csv\',[[\'نام\',\'کد ملی (نام کاربری)\',\'رمز عبور\'],...CRED])">⬇️ دانلود نام کاربری و رمزها</button><br><small>رمزها فقط همین یک‌بار قابل مشاهده‌اند (در سایت هش می‌شوند).</small>':''}</div>`;
+const mk=async(nc,name,grade,pw)=>db.put('regs',nc,{nc,ph:await sha(nc+':'+pw),name,grade,prev:'',st:'پذیرفته‌شده',code:String(Math.floor(1e5+Math.random()*9e5)),at:Date.now()});
+async function addStu(){const n=$('#an').value.trim(),c=fa($('#ac').value.trim()),p=$('#ap').value.trim()||gp(),m=$('#am');if(!n||!okNC(c))return m.innerHTML='<div class="msg e">نام و کد ملی معتبر لازم است.</div>';if(p.length<6)return m.innerHTML='<div class="msg e">رمز حداقل ۶ کاراکتر.</div>';
+ if(await db.get('regs',c))return m.innerHTML='<div class="msg e">این کد ملی قبلاً ثبت شده است.</div>';await mk(c,n,$('#ag').value,p);CRED=[[n,c,p]];SEL.msg=credMsg(`✅ ${esc(n)} ثبت شد — نام کاربری: <b>${c}</b> | رمز: <b>${esc(p)}</b>`);admin()}
+const csvRows=t=>{t=t.replace(/^\ufeff/,'');const d=[',',';','\t'].sort((a,b)=>t.split(b).length-t.split(a).length)[0];return t.split(/\r?\n/).filter(l=>l.trim()).map(l=>{const o=[];let c='',q=0;for(const ch of l){if(ch=='"')q=!q;else if(ch==d&&!q){o.push(c);c=''}else c+=ch}o.push(c);return o})};
+async function xl(el){const f=el.files[0];if(!f)return;let rows;try{if(/\.csv$/i.test(f.name))rows=csvRows(await f.text());else{if(!window.XLSX)await new Promise((ok,no)=>{const e=document.createElement('script');e.src='https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';e.onload=ok;e.onerror=no;document.head.appendChild(e)});const w=XLSX.read(await f.arrayBuffer());rows=XLSX.utils.sheet_to_json(w.Sheets[w.SheetNames[0]],{header:1,defval:''})}}catch(e){return alert('خواندن فایل ممکن نشد. فایل را به‌صورت CSV ذخیره کنید و دوباره امتحان کنید.')}
+ const H=rows[0].map(x=>String(x).trim()),iN=H.findIndex(h=>h.includes('نام')&&!h.includes('کد')),iC=H.findIndex(h=>h.replace(/[\s\u200c]/g,'').includes('کدملی')),iG=H.findIndex(h=>h.includes('پایه')),ti=TERMS.indexOf($('#it').value);if(iC<0)return alert('ستون «کد ملی» پیدا نشد');
+ CRED=[];let nw=0,ns=0,bad=0;for(const r of rows.slice(1)){const c=fa(String(r[iC])).replace(/\D/g,'').padStart(10,'0');if(!okNC(c)){if(String(r[iC]).trim())bad++;continue}
+  if(!await db.get('regs',c)){const n=String(r[iN]||'').trim();if(!n){bad++;continue}const p=gp();await mk(c,n,['هفتم','هشتم','نهم'].find(x=>String(r[iG]||'').includes(x))||'هفتم',p);CRED.push([n,c,p]);nw++}
+  for(let i=0;i<SUBJ.length;i++){const k=H.indexOf(SUBJ[i]);if(k<0)continue;const v=fa(String(r[k]).trim()).replace(/[٫\/,]/g,'.');if(v===''||isNaN(v)||v<0||v>20)continue;await db.put('grades',`${c}_${ti}_${i}`,{sid:c,subject:SUBJ[i],score:v,term:TERMS[ti],at:Date.now()});ns++}}
+ SEL.msg=credMsg(`ورود انجام شد: ${nw} دانش‌آموز جدید، ${ns} نمره ثبت شد${bad?`، ${bad} ردیف نامعتبر`:''}.`);admin()}
+function discHtml(l,adm){const c=k=>l.filter(x=>x.k==k).length;return`<div>${DK.map(k=>`<span class="tag ${k[0]=='ت'?'t2':'t3'}">${k}: ${c(k)}</span>`).join(' ')}</div>`+(l.length?`<table><tr><th>تاریخ</th><th>نوع</th><th>توضیح</th>${adm?'<th></th>':''}</tr>${l.map(x=>`<tr><td>${fd(x.d)}</td><td>${esc(x.k)}</td><td>${esc(x.x)}</td>${adm?`<td><button class="btn s d" onclick="if(confirm('حذف شود؟'))db.del('disc','${x.id}').then(admin)">حذف</button></td>`:''}</tr>`).join('')}</table>`:'<p class="hint">موردی ثبت نشده است.</p>')}
+async function addD(){const s=SEL.sid;if(!s)return;await db.put('disc',`${s}_${Date.now().toString(36)}`,{k:$('#dk').value,d:$('#dd').value||new Date().toISOString().slice(0,10),x:$('#dx').value.trim()});admin()}
+async function doneI(id,i){const x={...IS[i]};delete x.id;x.ok=x.ok?0:1;await db.put('issues',id,x);admin()}
+async function sendIssue(){const t=$('#ix').value.trim(),m=$('#im');if(t.length<5)return m.innerHTML='<div class="msg e">لطفاً مشکل را بنویسید.</div>';try{await db.add('issues',{n:$('#in').value.trim(),k:$('#ik').value,x:t,at:Date.now(),ok:0});$('#ix').value='';m.innerHTML='<div class="msg">✅ گزارش شما برای مدیریت ارسال شد. ممنون!</div>'}catch(e){m.innerHTML='<div class="msg e">خطا در ارسال؛ دوباره تلاش کنید.</div>'}}
+async function chk(role,h,nc){if(CFG.SRV){const r=await (await fetch(CFG.FIREBASE_URL+'/login',{method:'POST',body:JSON.stringify({role,h,nc})})).json();if(r.t){sessionStorage.hf_tk=r.t;return 1}return 0}if(role=='a')return h===CFG.ADMIN_HASH;const r=await db.get('regs',nc);return r&&r.ph&&r.ph===h}
+async function setSt(id,i,v,f='st'){await db.patch('regs',id,{[f]:v});R[i][f]=v}
+async function resetPw(i){const r={...R[i]};if(!r.nc)return alert('این ثبت‌نام کد ملی ندارد.');const p=prompt('رمز جدید دانش‌آموز (حداقل ۶ کاراکتر):');if(!p||p.length<6)return;await db.patch('regs',r.id,{ph:await sha(r.nc+':'+p)});alert('رمز تغییر کرد ✅')}
+async function saveSheet(){const s=SEL.sid,t=SEL.term,ins=[...document.querySelectorAll('.si')];if(!s)return;if(ins.some(x=>x.value!==''&&(x.value<0||x.value>20)))return alert('نمره‌ها باید بین ۰ تا ۲۰ باشند');
+ for(let i=0;i<ins.length;i++){const v=ins[i].value,id=`${s}_${TERMS.indexOf(t)}_${i}`;if(v==='')await db.del('grades',id);else await db.put('grades',id,{sid:s,subject:SUBJ[i],score:v,term:t,at:Date.now()})}
+ admin()}
+const av=a=>a.length?a.reduce((x,g)=>x+ +g.score,0)/a.length:null;
+function stats(gs){gs=[...gs].sort((x,y)=>SUBJ.indexOf(x.subject)-SUBJ.indexOf(y.subject));const t1=gs.filter(g=>g.term==TERMS[0]),t2=gs.filter(g=>g.term==TERMS[1]),a1=av(t1),a2=av(t2);return{t1,t2,a1,a2,ya:a1!=null&&a2!=null?(a1+a2)/2:null}}
+const f2=x=>x==null?'—':x.toFixed(2);
+function stuTable(l){if(!l.length)return'<div class="hint">نمره‌ای ثبت نشده است.</div>';const S=stats(l);return`<table><tr><th>درس</th><th>نوبت</th><th>نمره</th><th></th></tr>${[...S.t1,...S.t2].map(g=>`<tr><td>${esc(g.subject)}</td><td>${esc(g.term)}</td><td>${esc(g.score)}</td><td><button class="btn s g" onclick="editG('${g.id}',${g.score})">ویرایش</button> <button class="btn s d" onclick="if(confirm('حذف شود؟'))db.del('grades','${g.id}').then(admin)">حذف</button></td></tr>`).join('')}</table><p><b>معدل نوبت اول:</b> ${f2(S.a1)} | <b>نوبت دوم:</b> ${f2(S.a2)} | <b>سالانه:</b> ${f2(S.ya)}</p>`}
+async function stLogin(){const nc=fa($('#sn').value.trim()),pw=$('#sw').value,m=$('#sm');if(Date.now()<(+localStorage.hf_su||0))return m.innerHTML='<div class="msg e">به دلیل تلاش‌های ناموفق، ۵ دقیقه صبر کنید</div>';
+ try{if(await chk('s',await sha(nc+':'+pw),nc)){localStorage.hf_sf=0;sessionStorage.hf_st=nc;route()}else{const f=(+localStorage.hf_sf||0)+1;localStorage.hf_sf=f;if(f>=5){localStorage.hf_su=Date.now()+3e5;localStorage.hf_sf=0}m.innerHTML='<div class="msg e">کد ملی یا رمز عبور اشتباه است</div>'}}catch(e){m.innerHTML='<div class="msg e">خطا در ارتباط با پایگاه داده</div>'}}
+function stOut(){delete sessionStorage.hf_st;delete sessionStorage.hf_tk;route()}
+async function stuPanel(){const el=$('#sp'),nc=sessionStorage.hf_st;try{const r=await db.get('regs',nc),gs=await db.prefix('grades',nc+'_'),dz=await db.prefix('disc',nc+'_');if(!r)return stOut();
+ const S=stats(gs),auto=S.ya==null?'در انتظار نمرات نوبت دوم':S.ya>=10?'قبول':'مردود',res=r.res&&r.res!='خودکار'?r.res:auto,FR={'هفتم':'ششم','هشتم':'هفتم','نهم':'هشتم'};
+ const term=(t,a,l)=>`<div class="card"><h3 style="margin-top:0">${t}</h3>${a==null?'<p class="hint">هنوز نمره‌ای ثبت نشده است.</p>':`<div class="ring" style="--p:${a*5}"><b>${a.toFixed(2)}</b></div><table>${l.map(g=>`<tr><td>${esc(g.subject)}</td><td style="text-align:left"><span class="sco ${g.score<10?'lo':g.score>=17?'hi':''}">${esc(g.score)}</span></td></tr>`).join('')}</table>`}</div>`;
+ el.innerHTML=`<div class="prof">${r.photo?`<img src="${r.photo}" alt="">`:`<div class="av">${esc(r.name[0])}</div>`}<div><div class="pn">${esc(r.name)}</div><span class="chip">پایه ${esc(r.grade)}</span><span class="chip">کد ملی ${esc(r.nc)}</span><span class="chip">ثبت‌نام: ${esc(r.st)}</span></div><button class="btn o" style="margin-right:auto" onclick="stOut()">خروج</button></div>
+ <div class="path">${Object.entries(FR).map(([to,from])=>`<div class="${to==r.grade?'on':''}">${from} ⟵ ${to}</div>`).join('')}</div>
+ <div class="res ${res=='قبول'?'ok':res=='مردود'?'no':''}">${res=='قبول'?'🎉 ':''}نتیجه سال: ${esc(res)}${S.ya!=null?' — معدل سالانه '+S.ya.toFixed(2):''}</div>
+ <div class="grid" style="margin-top:18px">${term(TERMS[0],S.a1,S.t1)}${term(TERMS[1],S.a2,S.t2)}</div><h2>پرونده تربیتی</h2><div class="card sc">${discHtml(dz,0)}</div>`}catch(e){el.innerHTML='<div class="msg e">خطا در ارتباط با پایگاه داده</div>'}}
+async function show(i){const r=await db.get('regs',R[i].id)||R[i];$('#dt').innerHTML=`<h3>مدارک ${esc(r.name)}</h3><div class="imgs">${[['photo','پرسنلی'],['sh','شناسنامه'],['rc','کارنامه'],['pay','رسید']].filter(x=>r[x[0]]).map(x=>`<div><small>${x[1]}</small><br><a href="${r[x[0]]}" target="_blank"><img src="${r[x[0]]}"></a></div>`).join('')}</div>`}
+async function delReg(id){if(confirm('این ثبت‌نام حذف شود؟')){await db.del('regs',id);admin()}}
+async function addG(){const s=$('#gs').value,d=$('#gd').value.trim(),n=$('#gn').value;if(!s||!d||n===''||n<0||n>20)return alert('اطلاعات نمره را درست وارد کنید');await db.add('grades',{sid:s,subject:d,score:n,term:$('#gt').value,at:Date.now()});admin()}
+async function addN(){const t=$('#nt').value.trim();if(!t)return alert('عنوان را وارد کنید');await db.add('news',{title:t,cat:$('#nc').value,text:$('#nx').value,img:IMG.news||'',at:Date.now()});delete IMG.news;admin()}
+function csv(){dl('registrations.csv',[['نام','کد ملی','پایه','دبستان','کد','وضعیت','تاریخ'],...R.map(r=>[r.name,r.nc||'',r.grade,r.prev,r.code,r.st,fd(r.at)])])}
+
+/* ===== مسیریابی ===== */
+function route(){
+ const h=(location.hash||'#home').slice(1);const p=P[h]?h:'home';
+ $('#app').innerHTML=P[p]();
+ document.querySelectorAll('.nav a.l').forEach(a=>a.classList.toggle('on',a.hash=='#'+p));
+ scrollTo(0,0);
+ if(p=='home')loadNews($('#hn'),3);
+ if(p=='gallery')db.list('gallery').then(l=>$('#gl').innerHTML=byDate(l).map(g=>`<div class="card news"><img src="${g.img}" style="height:200px"><p style="margin:0">${esc(g.cap)}</p></div>`).join('')||'<div class="hint">هنوز عکسی ثبت نشده است.</div>').catch(()=>{});
+ if(p=='news'){$('#ch').innerHTML=[['','همه'],...Object.entries(CAT).map(([k,v])=>[k,v[0]])].map(c=>`<button data-c="${c[0]}" class="${c[0]?'':'on'}">${c[1]}</button>`).join('');
+  $('#ch').onclick=e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#ch button').forEach(x=>x.classList.toggle('on',x==b));loadNews($('#nl'),0,b.dataset.c)};loadNews($('#nl'))}
+ if(p=='admin'&&sessionStorage.hf_ad)admin();
+ if(p=='student'&&sessionStorage.hf_st)stuPanel();
+}
+addEventListener('hashchange',route);route();
+</script>
+</body>
+</html>
